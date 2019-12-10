@@ -1,0 +1,6 @@
+framework module Pods_XNThemeManager_Example {
+  umbrella header "Pods-XNThemeManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

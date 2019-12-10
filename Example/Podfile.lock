@@ -1,0 +1,16 @@
+PODS:
+  - XNThemeManager (0.1.0)
+
+DEPENDENCIES:
+  - XNThemeManager (from `../`)
+
+EXTERNAL SOURCES:
+  XNThemeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XNThemeManager: 050d2929a61ccc66d3b5de3dfb1723e382c1e879
+
+PODFILE CHECKSUM: ff781f5f199fb109d9bd1b7d68b78b0af3ff2594
+
+COCOAPODS: 1.8.4

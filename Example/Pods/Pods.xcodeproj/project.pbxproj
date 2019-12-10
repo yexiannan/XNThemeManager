@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354E45A0E18FB3EFFC5DFA3796C3955A /* XNThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D1342639059E6A69456B6C229D5D7E /* XNThemeManager-dummy.m */; };
+		367890FCA9096FC55AF0D2A16D7EF44F /* XNThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E87E6F4F83303354058CD1C8DA62F7B7 /* XNThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F10A99D428FC331F2A4A0BE21B973B5 /* XNThemeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7893297B392DF3FE52BD55ED4B5AA765 /* XNThemeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D5D4B0A159215478634A98A0B95616 /* Pods-XNThemeManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E3ED2C581D653842578ECFB82CE03C /* Pods-XNThemeManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6976FF1C0A8456E7306E29CF9D0F8919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AE273B253425DC16BF984538F02AE621 /* UIFont+XNThemeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3423209CD3CCC4663F2D2F72758CCCEB /* UIFont+XNThemeFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECD15D1C53D93051011218362D112B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AF0E5A071BF6DCBA477E59D4E4265D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C3606F5D2A1D37EE30066DA4113B70D5 /* Pods-XNThemeManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5859DD4F9FC62E65805E090C70A6A /* Pods-XNThemeManager_Tests-dummy.m */; };
+		CA753E1D60E80BB9F2D8F0DD5D3CA7FB /* Pods-XNThemeManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CF6355E1CFA2848B86FFAB13300FB0 /* Pods-XNThemeManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBD17ADFD4AFFF98315B01EE75B86D1 /* XNThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D73B1FFDF863E3624B4C7FEF0743D7DC /* XNThemeManager.m */; };
+		F7D10E7FFB4DCDBD50D21A91962CD6E7 /* UIFont+XNThemeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0856CE04A10154A38E99542D96C11 /* UIFont+XNThemeFont.m */; };
+		FD1A023123BB411585ED827CFDAC9FF4 /* Pods-XNThemeManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC14A21FEC276E560BB1B1C869BA2CCD /* Pods-XNThemeManager_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FAC5E43E5654E9123DE2D0AD4B6579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6D1F2EA287830B51A243F98A3078AF;
+			remoteInfo = XNThemeManager;
+		};
+		537848071FF39B52EF3C89471E4DCD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76662F6ACC00D652628B5D96C4161F19;
+			remoteInfo = "Pods-XNThemeManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B62F0B548FF4547A54C2C3665FB15B /* Pods-XNThemeManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNThemeManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		24CF6355E1CFA2848B86FFAB13300FB0 /* Pods-XNThemeManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNThemeManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B2B23C434F9F9FA0EB045DB26A9DD11 /* Pods-XNThemeManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNThemeManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3423209CD3CCC4663F2D2F72758CCCEB /* UIFont+XNThemeFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+XNThemeFont.h"; path = "XNThemeManager/Classes/UIFont+XNThemeFont.h"; sourceTree = "<group>"; };
+		35C1D5E24AD65A241BCB25EF6B609381 /* Pods-XNThemeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNThemeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E42C4217021A209EB1B5C2D2140DA2B /* Pods-XNThemeManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNThemeManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43E1CE2CA98A8B0C893248DD38065BEB /* Pods-XNThemeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNThemeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		47D1342639059E6A69456B6C229D5D7E /* XNThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XNThemeManager-dummy.m"; sourceTree = "<group>"; };
+		4A6F830E52D3D0BC9B0D468998B36190 /* XNThemeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNThemeManager.modulemap; sourceTree = "<group>"; };
+		62393155787278F9D6CD37A9905E06C7 /* XNThemeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XNThemeManager.framework; path = XNThemeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C721FFDE28CCEF8F54D035E133052 /* Pods-XNThemeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNThemeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7893297B392DF3FE52BD55ED4B5AA765 /* XNThemeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNThemeManager-umbrella.h"; sourceTree = "<group>"; };
+		7F4C85B94C79EB34AA4214A59E57503B /* XNThemeManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNThemeManager.xcconfig; sourceTree = "<group>"; };
+		8207ABEE969329C51D3587F7E3D15C76 /* Pods-XNThemeManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNThemeManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87E3ED2C581D653842578ECFB82CE03C /* Pods-XNThemeManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNThemeManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8B40AC2789ADA53B9233F625C27288B6 /* Pods_XNThemeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNThemeManager_Tests.framework; path = "Pods-XNThemeManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC5859DD4F9FC62E65805E090C70A6A /* Pods-XNThemeManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNThemeManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		90A9A209C953D139C843BE1C745C0ADE /* XNThemeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XNThemeManager-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3EC4531AD77ADB1A937E5879573ED30 /* XNThemeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XNThemeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDBB256FC3C2F796F80D7209ED612F65 /* XNThemeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNThemeManager-prefix.pch"; sourceTree = "<group>"; };
+		C80C60D5C0F0913DC16AB4946E10157C /* Pods-XNThemeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNThemeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CC14A21FEC276E560BB1B1C869BA2CCD /* Pods-XNThemeManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNThemeManager_Example-dummy.m"; sourceTree = "<group>"; };
+		CCF0856CE04A10154A38E99542D96C11 /* UIFont+XNThemeFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+XNThemeFont.m"; path = "XNThemeManager/Classes/UIFont+XNThemeFont.m"; sourceTree = "<group>"; };
+		D2866F9121AE9E548E7093BB7B44A990 /* Pods-XNThemeManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNThemeManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D73B1FFDF863E3624B4C7FEF0743D7DC /* XNThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNThemeManager.m; path = XNThemeManager/Classes/XNThemeManager.m; sourceTree = "<group>"; };
+		D7ED5EF12A10A61771ADB6D2462CBAC4 /* Pods-XNThemeManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNThemeManager_Example-Info.plist"; sourceTree = "<group>"; };
+		DD7F7AD48EF19479E260C4485C735DE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF7C67F6B9A2846CDAF57DC69CDEF7F0 /* Pods-XNThemeManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNThemeManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E675D46F4A5CED8340A6A253B0C14078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E7E2200B5CA195BF504635CD2EF0D29B /* Pods-XNThemeManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNThemeManager_Example.modulemap"; sourceTree = "<group>"; };
+		E87E6F4F83303354058CD1C8DA62F7B7 /* XNThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNThemeManager.h; path = XNThemeManager/Classes/XNThemeManager.h; sourceTree = "<group>"; };
+		EBD8ABB1737C1B9FA11075F25625A4B8 /* Pods_XNThemeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNThemeManager_Example.framework; path = "Pods-XNThemeManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB66017FFA6616B77FFFE7C1482C2F33 /* Pods-XNThemeManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNThemeManager_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F91BA0D65ACD528199D36A64D1E2975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6976FF1C0A8456E7306E29CF9D0F8919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A4D4055441C04B96815D81EC8369A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECD15D1C53D93051011218362D112B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDAAF4781466F11E91C7091567D091D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0E5A071BF6DCBA477E59D4E4265D99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352FF47E45A264A3B61705C7FE6BFC99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8ABB1737C1B9FA11075F25625A4B8 /* Pods_XNThemeManager_Example.framework */,
+				8B40AC2789ADA53B9233F625C27288B6 /* Pods_XNThemeManager_Tests.framework */,
+				62393155787278F9D6CD37A9905E06C7 /* XNThemeManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429B05B34BEC1AE280AAC25960F762CB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F7AD48EF19479E260C4485C735DE5 /* LICENSE */,
+				E675D46F4A5CED8340A6A253B0C14078 /* README.md */,
+				B3EC4531AD77ADB1A937E5879573ED30 /* XNThemeManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5A02CA723F70E59B60229707F37A8DDC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4208EC4A275D2111CBB477CD8F0359F /* XNThemeManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B272929386271E1A15F134D89E5E12F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F830E52D3D0BC9B0D468998B36190 /* XNThemeManager.modulemap */,
+				7F4C85B94C79EB34AA4214A59E57503B /* XNThemeManager.xcconfig */,
+				47D1342639059E6A69456B6C229D5D7E /* XNThemeManager-dummy.m */,
+				90A9A209C953D139C843BE1C745C0ADE /* XNThemeManager-Info.plist */,
+				BDBB256FC3C2F796F80D7209ED612F65 /* XNThemeManager-prefix.pch */,
+				7893297B392DF3FE52BD55ED4B5AA765 /* XNThemeManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XNThemeManager";
+			sourceTree = "<group>";
+		};
+		A0E756A3D836F34E4A810DA96C81F092 /* Pods-XNThemeManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E7E2200B5CA195BF504635CD2EF0D29B /* Pods-XNThemeManager_Example.modulemap */,
+				3E42C4217021A209EB1B5C2D2140DA2B /* Pods-XNThemeManager_Example-acknowledgements.markdown */,
+				2B2B23C434F9F9FA0EB045DB26A9DD11 /* Pods-XNThemeManager_Example-acknowledgements.plist */,
+				CC14A21FEC276E560BB1B1C869BA2CCD /* Pods-XNThemeManager_Example-dummy.m */,
+				D2866F9121AE9E548E7093BB7B44A990 /* Pods-XNThemeManager_Example-frameworks.sh */,
+				D7ED5EF12A10A61771ADB6D2462CBAC4 /* Pods-XNThemeManager_Example-Info.plist */,
+				24CF6355E1CFA2848B86FFAB13300FB0 /* Pods-XNThemeManager_Example-umbrella.h */,
+				C80C60D5C0F0913DC16AB4946E10157C /* Pods-XNThemeManager_Example.debug.xcconfig */,
+				768C721FFDE28CCEF8F54D035E133052 /* Pods-XNThemeManager_Example.release.xcconfig */,
+			);
+			name = "Pods-XNThemeManager_Example";
+			path = "Target Support Files/Pods-XNThemeManager_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A02CA723F70E59B60229707F37A8DDC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				352FF47E45A264A3B61705C7FE6BFC99 /* Products */,
+				F62E01DB5F913A23EF050BD062915127 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4208EC4A275D2111CBB477CD8F0359F /* XNThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				3423209CD3CCC4663F2D2F72758CCCEB /* UIFont+XNThemeFont.h */,
+				CCF0856CE04A10154A38E99542D96C11 /* UIFont+XNThemeFont.m */,
+				E87E6F4F83303354058CD1C8DA62F7B7 /* XNThemeManager.h */,
+				D73B1FFDF863E3624B4C7FEF0743D7DC /* XNThemeManager.m */,
+				429B05B34BEC1AE280AAC25960F762CB /* Pod */,
+				7B272929386271E1A15F134D89E5E12F /* Support Files */,
+			);
+			name = XNThemeManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F62E01DB5F913A23EF050BD062915127 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0E756A3D836F34E4A810DA96C81F092 /* Pods-XNThemeManager_Example */,
+				FCABF5E225F3DA078E8FEBBBA1EC93A7 /* Pods-XNThemeManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCABF5E225F3DA078E8FEBBBA1EC93A7 /* Pods-XNThemeManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB66017FFA6616B77FFFE7C1482C2F33 /* Pods-XNThemeManager_Tests.modulemap */,
+				8207ABEE969329C51D3587F7E3D15C76 /* Pods-XNThemeManager_Tests-acknowledgements.markdown */,
+				DF7C67F6B9A2846CDAF57DC69CDEF7F0 /* Pods-XNThemeManager_Tests-acknowledgements.plist */,
+				8FC5859DD4F9FC62E65805E090C70A6A /* Pods-XNThemeManager_Tests-dummy.m */,
+				20B62F0B548FF4547A54C2C3665FB15B /* Pods-XNThemeManager_Tests-Info.plist */,
+				87E3ED2C581D653842578ECFB82CE03C /* Pods-XNThemeManager_Tests-umbrella.h */,
+				43E1CE2CA98A8B0C893248DD38065BEB /* Pods-XNThemeManager_Tests.debug.xcconfig */,
+				35C1D5E24AD65A241BCB25EF6B609381 /* Pods-XNThemeManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-XNThemeManager_Tests";
+			path = "Target Support Files/Pods-XNThemeManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		093E4B064E60EE6E49977F05F8B3385C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D5D4B0A159215478634A98A0B95616 /* Pods-XNThemeManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C73504C77526E7A29A47094ABD301 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE273B253425DC16BF984538F02AE621 /* UIFont+XNThemeFont.h in Headers */,
+				3F10A99D428FC331F2A4A0BE21B973B5 /* XNThemeManager-umbrella.h in Headers */,
+				367890FCA9096FC55AF0D2A16D7EF44F /* XNThemeManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9792A582A45D78BFEA6E986F4FD8A4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA753E1D60E80BB9F2D8F0DD5D3CA7FB /* Pods-XNThemeManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76662F6ACC00D652628B5D96C4161F19 /* Pods-XNThemeManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0F7672DB819022FCE5201DAE017CDF /* Build configuration list for PBXNativeTarget "Pods-XNThemeManager_Example" */;
+			buildPhases = (
+				F9792A582A45D78BFEA6E986F4FD8A4D /* Headers */,
+				CB859A1241121E8971BDCF1581237BDD /* Sources */,
+				AFDAAF4781466F11E91C7091567D091D /* Frameworks */,
+				94F3FE7CE51DC05CD5616B21FC59DCB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE461250A5EFCF6FD11E40ABA94659CE /* PBXTargetDependency */,
+			);
+			name = "Pods-XNThemeManager_Example";
+			productName = "Pods-XNThemeManager_Example";
+			productReference = EBD8ABB1737C1B9FA11075F25625A4B8 /* Pods_XNThemeManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A6D1F2EA287830B51A243F98A3078AF /* XNThemeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A6A85DA15C2F2AAC5AFE3972323CA2 /* Build configuration list for PBXNativeTarget "XNThemeManager" */;
+			buildPhases = (
+				593C73504C77526E7A29A47094ABD301 /* Headers */,
+				18B786B00543C14AF095AC850D8CB9CA /* Sources */,
+				8C4A4D4055441C04B96815D81EC8369A /* Frameworks */,
+				6895E6718D0944620373967A8DB46DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XNThemeManager;
+			productName = XNThemeManager;
+			productReference = 62393155787278F9D6CD37A9905E06C7 /* XNThemeManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B393EBE08B9183B80EE84B9F61D9F303 /* Pods-XNThemeManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72BC9F3C14960DC1523791DFFF8F00D /* Build configuration list for PBXNativeTarget "Pods-XNThemeManager_Tests" */;
+			buildPhases = (
+				093E4B064E60EE6E49977F05F8B3385C /* Headers */,
+				AC7EF0D174DBFC7C0E101DC10547032D /* Sources */,
+				1F91BA0D65ACD528199D36A64D1E2975 /* Frameworks */,
+				838B52C92207DD0A37BEEE66BE795094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC3C79C43053FA9D9F8DCCA39BCADF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-XNThemeManager_Tests";
+			productName = "Pods-XNThemeManager_Tests";
+			productReference = 8B40AC2789ADA53B9233F625C27288B6 /* Pods_XNThemeManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 352FF47E45A264A3B61705C7FE6BFC99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76662F6ACC00D652628B5D96C4161F19 /* Pods-XNThemeManager_Example */,
+				B393EBE08B9183B80EE84B9F61D9F303 /* Pods-XNThemeManager_Tests */,
+				9A6D1F2EA287830B51A243F98A3078AF /* XNThemeManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6895E6718D0944620373967A8DB46DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838B52C92207DD0A37BEEE66BE795094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F3FE7CE51DC05CD5616B21FC59DCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B786B00543C14AF095AC850D8CB9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D10E7FFB4DCDBD50D21A91962CD6E7 /* UIFont+XNThemeFont.m in Sources */,
+				354E45A0E18FB3EFFC5DFA3796C3955A /* XNThemeManager-dummy.m in Sources */,
+				DDBD17ADFD4AFFF98315B01EE75B86D1 /* XNThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7EF0D174DBFC7C0E101DC10547032D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3606F5D2A1D37EE30066DA4113B70D5 /* Pods-XNThemeManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB859A1241121E8971BDCF1581237BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A023123BB411585ED827CFDAC9FF4 /* Pods-XNThemeManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE461250A5EFCF6FD11E40ABA94659CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XNThemeManager;
+			target = 9A6D1F2EA287830B51A243F98A3078AF /* XNThemeManager */;
+			targetProxy = 42FAC5E43E5654E9123DE2D0AD4B6579 /* PBXContainerItemProxy */;
+		};
+		DDC3C79C43053FA9D9F8DCCA39BCADF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XNThemeManager_Example";
+			target = 76662F6ACC00D652628B5D96C4161F19 /* Pods-XNThemeManager_Example */;
+			targetProxy = 537848071FF39B52EF3C89471E4DCD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		354187FF2B925BFCEE949B2BA318E81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C1D5E24AD65A241BCB25EF6B609381 /* Pods-XNThemeManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNThemeManager_Tests/Pods-XNThemeManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNThemeManager_Tests/Pods-XNThemeManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FF3381F6DFA0790401942EBB3870E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4C85B94C79EB34AA4214A59E57503B /* XNThemeManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNThemeManager/XNThemeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNThemeManager/XNThemeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XNThemeManager/XNThemeManager.modulemap";
+				PRODUCT_MODULE_NAME = XNThemeManager;
+				PRODUCT_NAME = XNThemeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6A7A2446B4D3E97C6739F46B75706590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E1CE2CA98A8B0C893248DD38065BEB /* Pods-XNThemeManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNThemeManager_Tests/Pods-XNThemeManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNThemeManager_Tests/Pods-XNThemeManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D91D68FC8190850E0B0FF58C11C59BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4C85B94C79EB34AA4214A59E57503B /* XNThemeManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNThemeManager/XNThemeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNThemeManager/XNThemeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XNThemeManager/XNThemeManager.modulemap";
+				PRODUCT_MODULE_NAME = XNThemeManager;
+				PRODUCT_NAME = XNThemeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96F786DF0917923047D530BAF8AA7D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80C60D5C0F0913DC16AB4946E10157C /* Pods-XNThemeManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNThemeManager_Example/Pods-XNThemeManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNThemeManager_Example/Pods-XNThemeManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4E9DF2FA539B9FC4BF34BE0B87E32F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768C721FFDE28CCEF8F54D035E133052 /* Pods-XNThemeManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNThemeManager_Example/Pods-XNThemeManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNThemeManager_Example/Pods-XNThemeManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0F7672DB819022FCE5201DAE017CDF /* Build configuration list for PBXNativeTarget "Pods-XNThemeManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F786DF0917923047D530BAF8AA7D02 /* Debug */,
+				E4E9DF2FA539B9FC4BF34BE0B87E32F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72BC9F3C14960DC1523791DFFF8F00D /* Build configuration list for PBXNativeTarget "Pods-XNThemeManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7A2446B4D3E97C6739F46B75706590 /* Debug */,
+				354187FF2B925BFCEE949B2BA318E81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A6A85DA15C2F2AAC5AFE3972323CA2 /* Build configuration list for PBXNativeTarget "XNThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D91D68FC8190850E0B0FF58C11C59BB /* Debug */,
+				3FF3381F6DFA0790401942EBB3870E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
