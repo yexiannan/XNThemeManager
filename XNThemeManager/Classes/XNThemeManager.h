@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 #define Notification_ChangeThemeType            @"Notification_ChangeThemeType"
 #define Notification_ChangeFontType             @"Notification_ChangeFontType"
 
-#define ThemeColor(colorType) [[UCThemeManager themeManager] colorWithThemeColorType:colorType  Alpha:1.f]
-#define aThemeColor(colorType,alpha) [[UCThemeManager themeManager] colorWithThemeColorType:colorType  Alpha:alpha]
+#define ThemeColor(colorType) [[XNThemeManager themeManager] colorWithThemeColorType:colorType  Alpha:1.f]
+#define aThemeColor(colorType,alpha) [[XNThemeManager themeManager] colorWithThemeColorType:colorType  Alpha:alpha]
 
-#define ThemeImage(imageName,bundle) [[UCThemeManager themeManager] imageWithImageName:imageName Bundle:bundle]
+#define ThemeImage(imageName,bundle) [[XNThemeManager themeManager] imageWithImageName:imageName Bundle:bundle]
 
 typedef NS_ENUM(NSInteger ,XNThemeType) {
     XNThemeType_Default,
